@@ -1,0 +1,124 @@
+.navbar-brand img {
+      height: 30px;
+ }
+ header nav ul li:hover a{
+        color: orange !important;
+    }
+    .btn-reserve {
+      background-color: #f4a825;
+      border-radius: 25px;
+      padding: 5px 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .btn-reserve:hover {
+      background-color: #d98e1f;
+    }
+    .nav-link {
+      font-weight: 500;
+      color: #333 !important;
+    }
+   
+      .category-btn {
+      border: 2px solid #f4a825;
+      border-radius: 25px;
+      padding: 5px 20px;
+      margin: 5px;
+      background-color: transparent;
+      color: #333;
+      font-weight: 500;
+    }
+     .category-btn:hover{
+        background-color: orange;
+        color: white;
+        transition: all 0.3s ease-in-out;
+     }
+    .category-btn.active {
+      background-color: #f4a825;
+      color: white;
+    }
+    .card-title {
+      font-weight: bold;
+    }
+    .card {
+      border: none;
+      text-align: center;
+      height: 100%;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .add-btn {
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      padding: 5px 15px;
+      font-weight: 500;
+      font-size: 0.9rem;
+    }
+    .star {
+      color: #f4a825;
+    }
+      .footer {
+      background-color: #fff7ef;
+      padding: 40px 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .footer h6 {
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #000;
+      display: block;
+      margin-bottom: 10px;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #f39c12;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+      font-size: 18px;
+      color: #000;
+      transition: transform 0.3s, color 0.3s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+      color: #f39c12;
+    }
+
+    .newsletter input[type="email"] {
+      border: none;
+      border-bottom: 1px solid #aaa;
+      background: transparent;
+      outline: none;
+      padding: 5px 10px;
+      width: 200px;
+    }
+
+    .newsletter button {
+      border: none;
+      background-color: #f39c12;
+      color: #fff;
+      padding: 6px 12px;
+      border-radius: 50%;
+    }
+
+    @media (max-width: 768px) {
+      .footer .row > div {
+        margin-bottom: 30px;
+      }
+      .newsletter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
